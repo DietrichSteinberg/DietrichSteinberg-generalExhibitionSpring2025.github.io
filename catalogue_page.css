@@ -16,9 +16,6 @@
     transform: translate(-50%, -50%);
     color: white;
   }
-  
-
-
   /* sorting tags Navbar */
 .sorting_tags_nav {
     list-style-type: none;
@@ -28,20 +25,61 @@
     background-color: #333;
     top: 0;
     height: auto;
-  }
-  
-  li {
+}
+
+.sorting_tags_nav h2{
+  color: white;
+}
+
+li {
     float: left;
-  }
+}
   
-  li a {
-    display: block;
+li button {
+    /* display: block; */
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
-  }
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    background-color: blueviolet;
+}
 
+li button:hover{
+  background-color: rgb(10, 3, 96);
+}
+form{
+  float: right;
+  margin: 5px;
+}
+.search_bar{
+  float: right;
+  width: 200px;
+  height: 35px;
+  font-size: 25px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(138, 43, 226,0);
+  color: white;
+}
+
+.search_bar:click{
+  background-color: rgba(138, 43, 226,.5);
+}
+
+.search_bar_button{
+  float: right;
+  width: 35px;
+  height: 35px;
+  border-radius:  0px 5px 5px 0px;
+  border-color: white;
+  background-color: rgba(138, 43, 226,0);
+}
+
+.search_bar_button:hover{
+  background-color: rgba(138, 43, 226,.5);
+}
 
 /* catalogue container  ---------start-----*/
   .row {
